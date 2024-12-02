@@ -9,18 +9,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $file = "messages.txt"; // Plik zostanie utworzony w tym samym katalogu co send_contact.php
 
     // Tworzenie treści do zapisania w pliku
-    $content = "Imię: $name\n";
+    $content = "Name: $name\n";
     $content .= "Email: $email\n";
-    $content .= "Wiadomość: $message\n";
+    $content .= "Nachricht: $message\n";
     $content .= "----------------------\n";
 
     // Zapisywanie treści w pliku
     if (file_put_contents($file, $content, FILE_APPEND | LOCK_EX)) {
-        echo "Wiadomość została zapisana.";
+        echo "Nachricht wurde gesendet.";
     } else {
-        echo "Wystąpił błąd podczas zapisywania wiadomości.";
+        echo "Beim Speichern der Nachricht ist ein Fehler aufgetreten.";
     }
 } else {
-    echo "Nieprawidłowa metoda żądania.";
+    echo "“Ungültige Anforderungsmethode”.";
 }
 ?>

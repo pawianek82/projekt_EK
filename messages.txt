@@ -1,0 +1,4 @@
+Imię: Pawel Liczerski
+Email: p.licznerski@gmail.com
+Wiadomość: Hallo world!
+----------------------
