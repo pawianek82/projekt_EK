@@ -1,57 +1,57 @@
-/* Styling für die Kontaktsektion */
+/* Styling für die "Kontaktieren Sie mich" */
   .contact-section {
-    max-width: 600px; /* Maximale Breite des Formulars */
-    margin: 20px auto; /* Zentriert die Sektion horizontal mit oberem und unterem Abstand */
-    padding: 20px; /* Innenabstand */
-    border: 1px solid #ccc; /* Grauer Rand */
-    border-radius: 10px; /* Abgerundete Ecken */
-    background-color: #f9f9f9; /* Hellgrauer Hintergrund */
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
   }
   
   /* Styling für die Überschrift */
   .contact-section h1 {
-    text-align: center; /* Zentriert den Text */
-    margin-bottom: 20px; /* Abstand nach unten */
-    font-size: 24px; /* Schriftgröße */
-    color: #333; /* Dunkelgraue Schriftfarbe */
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    color: #333; 
   }
   
   /* Styling für die Eingabefelder und Textbereiche */
   .contact-section .form-group input,
   .contact-section .form-group textarea {
-    width: 100%; /* Eingabefelder über die gesamte Breite */
-    padding: 10px; /* Innenabstand */
-    margin-bottom: 15px; /* Abstand nach unten */
-    border: 1px solid #ccc; /* Grauer Rand */
-    border-radius: 5px; /* Abgerundete Ecken */
-    font-size: 16px; /* Schriftgröße */
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
   }
   
   /* Styling für die Buttons */
   .contact-section button {
-    display: block; /* Buttons als Blockelemente */
-    width: 100%; /* Buttons über die gesamte Breite */
-    padding: 10px; /* Innenabstand */
-    margin-top: 10px; /* Abstand nach oben */
-    font-size: 16px; /* Schriftgröße */
-    border: none; /* Kein Rand */
-    border-radius: 5px; /* Abgerundete Ecken */
-    cursor: pointer; /* Zeigt den Mauszeiger als Zeiger an */
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
   }
   
   /* Styling für den Senden-Button */
   .contact-section button.submit-btn {
-    background-color: #007bff; /* Blaue Farbe */
-    color: #fff; /* Weiße Schrift */
+    background-color: #007bff; 
+    color: #fff; 
   }
   
   /* Styling für den Zurücksetzen-Button */
   .contact-section button.reset-btn {
-    background-color: #6c757d; /* Graue Farbe */
-    color: #fff; /* Weiße Schrift */
+    background-color: #6c757d; 
+    color: #fff; 
   }
   
   /* Hover-Effekt für die Buttons */
   .contact-section button:hover {
-    opacity: 0.9; /* Leichte Abdunklung bei Hover */
+    opacity: 0.9; 
   }
