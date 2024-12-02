@@ -1,57 +1,71 @@
 /* Styling für die "Kontaktieren Sie mich" */
-  .contact-section {
-    max-width: 600px; 
-    margin: 20px auto; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-    border-radius: 10px; 
-    background-color: #f9f9f9; 
-  }
-  
-  /* Styling für die Überschrift */
-  .contact-section h1 {
-    text-align: center; 
-    margin-bottom: 20px; 
-    font-size: 24px; 
-    color: #333; 
-  }
-  
-  /* Styling für die Eingabefelder und Textbereiche */
-  .contact-section .form-group input,
-  .contact-section .form-group textarea {
-    width: 100%; 
-    padding: 10px; 
-    margin-bottom: 15px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 16px; 
-  }
-  
-  /* Styling für die Buttons */
-  .contact-section button {
-    display: block; 
-    width: 100%; 
-    padding: 10px; 
-    margin-top: 10px; 
-    font-size: 16px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-  }
-  
-  /* Styling für den Senden-Button */
-  .contact-section button.submit-btn {
-    background-color: #007bff; 
-    color: #fff; 
-  }
-  
-  /* Styling für den Zurücksetzen-Button */
-  .contact-section button.reset-btn {
-    background-color: #6c757d; 
-    color: #fff; 
-  }
-  
-  /* Hover-Effekt für die Buttons */
-  .contact-section button:hover {
-    opacity: 0.9; 
-  }
+.contact-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Styling für die Überschrift */
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styling für die Eingabefelder und Textbereiche */
+.contact-section .form-group input,
+.contact-section .form-group textarea,
+.contact-section .form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styling für die Radio-Buttons und Labels */
+.contact-section .form-group-radio {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-section .form-group-radio label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Styling für die Buttons */
+.contact-section button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling für den Senden-Button */
+.contact-section button.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styling für den Zurücksetzen-Button */
+.contact-section button.reset-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* Hover-Effekt für die Buttons */
+.contact-section button:hover {
+  opacity: 0.9;
+}
