@@ -1,0 +1,57 @@
+/* Styling für die Kontaktsektion */
+  .contact-section {
+    max-width: 600px; /* Maximale Breite des Formulars */
+    margin: 20px auto; /* Zentriert die Sektion horizontal mit oberem und unterem Abstand */
+    padding: 20px; /* Innenabstand */
+    border: 1px solid #ccc; /* Grauer Rand */
+    border-radius: 10px; /* Abgerundete Ecken */
+    background-color: #f9f9f9; /* Hellgrauer Hintergrund */
+  }
+  
+  /* Styling für die Überschrift */
+  .contact-section h1 {
+    text-align: center; /* Zentriert den Text */
+    margin-bottom: 20px; /* Abstand nach unten */
+    font-size: 24px; /* Schriftgröße */
+    color: #333; /* Dunkelgraue Schriftfarbe */
+  }
+  
+  /* Styling für die Eingabefelder und Textbereiche */
+  .contact-section .form-group input,
+  .contact-section .form-group textarea {
+    width: 100%; /* Eingabefelder über die gesamte Breite */
+    padding: 10px; /* Innenabstand */
+    margin-bottom: 15px; /* Abstand nach unten */
+    border: 1px solid #ccc; /* Grauer Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+  }
+  
+  /* Styling für die Buttons */
+  .contact-section button {
+    display: block; /* Buttons als Blockelemente */
+    width: 100%; /* Buttons über die gesamte Breite */
+    padding: 10px; /* Innenabstand */
+    margin-top: 10px; /* Abstand nach oben */
+    font-size: 16px; /* Schriftgröße */
+    border: none; /* Kein Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeigt den Mauszeiger als Zeiger an */
+  }
+  
+  /* Styling für den Senden-Button */
+  .contact-section button.submit-btn {
+    background-color: #007bff; /* Blaue Farbe */
+    color: #fff; /* Weiße Schrift */
+  }
+  
+  /* Styling für den Zurücksetzen-Button */
+  .contact-section button.reset-btn {
+    background-color: #6c757d; /* Graue Farbe */
+    color: #fff; /* Weiße Schrift */
+  }
+  
+  /* Hover-Effekt für die Buttons */
+  .contact-section button:hover {
+    opacity: 0.9; /* Leichte Abdunklung bei Hover */
+  }
