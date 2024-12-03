@@ -46,27 +46,31 @@
     </div>
 
     <!-- Radio-Buttons für Geschlecht -->
-    <div class="form-group-radio">
-      <label for="male">Male</label>
-      <input
-        type="radio"
-        name="gender"
-        id="male"
-        value="male"
-        title="Falls Ihr Geschlecht männlich ist, wählen Sie diesen Knopf"
-        required
-      />
+<div class="form-group-radio">
+  <div>
+    <input
+      type="radio"
+      name="gender"
+      id="male"
+      value="male"
+      title="Falls Ihr Geschlecht männlich ist, wählen Sie diesen Knopf"
+      required
+    />
+    <label for="male">Male</label>
+  </div>
 
-      <label for="female">Female</label>
-      <input
-        type="radio"
-        name="gender"
-        id="female"
-        value="female"
-        title="Falls Ihr Geschlecht weiblich ist, wählen Sie diesen Knopf"
-        required
-      />
-    </div>
+  <div>
+    <input
+      type="radio"
+      name="gender"
+      id="female"
+      value="female"
+      title="Falls Ihr Geschlecht weiblich ist, wählen Sie diesen Knopf"
+      required
+    />
+    <label for="female">Female</label>
+  </div>
+</div>
 
     <!-- Senden-Button -->
     <button type="submit" class="submit-btn">Nachricht senden</button>

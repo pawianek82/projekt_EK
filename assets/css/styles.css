@@ -43,13 +43,25 @@ body {
 .contact-section .form-group-radio {
   margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.contact-section .form-group-radio div{
+  display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .contact-section .form-group-radio label {
-  margin-right: 10px;
+  margin-left: 15px;
   font-size: 16px;
+  color: #333;
+}
+
+.contact-section .form-group-radio input[type="radio"] {
+  margin-right: 10px;
 }
 
 /* Styling für die Buttons */
