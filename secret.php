@@ -32,6 +32,8 @@
   </body>
   
   <footer class="container py-3 my-4">
-    <p class="text-center text-body-secondary">2024 pawianek82@</p>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    </ul>
+    <p class="text-center text-body-secondary" ><span style="color: yellow;">2024 pawianek82@</span></p>
   </footer>
 </html>
