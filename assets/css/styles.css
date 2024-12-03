@@ -1,12 +1,11 @@
 /* Gradient Hintergrund für die gesamte Seite */
 body {
-  background: rgb(0, 0, 128); /* Fallback-Farbe (ciemnoniebieski) */
-  background: linear-gradient(to bottom, #004080, #001a33); /* Gradient z ciemnoniebieskiego do bardzo ciemnego */
-  height: 100vh; /* Pełna wysokość widocznego obszaru */
-  margin: 0; /* Usunięcie marginesów */
-  padding: 0; /* Usunięcie wewnętrznych odstępów */
-  color: #ffffff; /* Biały tekst */
-  font-family: Arial, sans-serif; /* Czytelna czcionka */
+  background: rgb(0, 0, 128); 
+  background: linear-gradient(to bottom, #004080, #001a33); 
+  margin: 0; 
+  padding: 0; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
 }
 
 
@@ -123,4 +122,23 @@ body {
 /* Hover-Effekt für Buttons */
 .login-vip-section .btn-primary:hover {
   opacity: 0.9;
+}
+
+/* Styling für das Bild und den Text darunter */
+.image-container {
+  text-align: center; /* Zentriert das Bild und den Text */
+  margin-top: 20px; /* Abstand nach oben */
+}
+
+.image-container img {
+  max-width: 80%; /* Bild passt sich an die Bildschirmbreite an */
+  height: auto; /* Verhältnis bleibt gleich */
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+}
+
+.image-container p {
+  margin-top: 10px; /* Abstand zwischen Bild und Text */
+  font-size: 16px; /* Schriftgröße für den Text */
+  color: #333; /* Dunkle Farbe */
 }

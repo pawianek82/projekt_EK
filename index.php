@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body>
+    <!-- Link zu header.php-->
     <?php include 'header.php'; ?>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Menu</a>
@@ -58,7 +60,7 @@
         </div>
       </div>
     </nav>
-
+    <!-- Link zu contact.php Kontakt Formular-->
     <?php include_once"contact.php"; ?>
 
     <!--Link JS getbootstrap.com-->

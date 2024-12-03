@@ -2,3 +2,7 @@ Imię: Pawel Liczerski
 Email: p.licznerski@gmail.com
 Wiadomość: Hallo world!
 ----------------------
+Name: Pawel Liczerski
+Email: p.licznerski@gmail.com
+Nachricht: Hallo!
+----------------------

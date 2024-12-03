@@ -11,36 +11,16 @@
   </head>
   
   <body>
+    <!-- Link zu header.php-->
     <?php include_once "header.php"; ?>
     
+    <!-- Link zu loginVip.php-->
+    <?php include_once"loginVip.php"; ?>
+    
+    <!-- Link zu contact.php Kontakt Formular-->
     <?php include_once"contact.php"; ?>
-       
-    <div class="container">
-      <h1>Login</h1>
-      <form>
-        <div class="form-group">
-          <label for="username">Benutzername:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="username"
-            placeholder="Enter username"
-          />
-        </div>
-        <div class="form-group">
-          <label for="password">Passwort:</label>
-          <input
-            type="password"
-            class="form-control"
-            id="password"
-            placeholder="Enter password"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">Einloggen</button>
-      </form>
-    </div>
-
-    <?php include_once"contact.php"; ?>
+    
+    
 
     <!--Link JS getbootstrap.com-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
