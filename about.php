@@ -48,7 +48,6 @@
       </div>
     </nav>
 
-
     <div id="home"></div>
 
     <p style="padding-left: 20px; padding-right: 20px;"><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
@@ -63,7 +62,19 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
     <br></p>
-
+    
+    <!-- CV-->
+<section style="padding: 20px;">
+  <h2 style="text-align: center;">Mein Lebenslauf</h2>
+  <div style="margin: 0 auto; max-width: 80%; border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9;">
+    <iframe src="./assets/pdf/cv.pdf" width="100%" height="600px" style="border: none;"></iframe>
+  </div>
+  <hr>
+  <div style="text-align: center;">
+    <a href="./assets/pdf/cv.pdf" download style="text-decoration: none; color: blue;">Download CV</a>
+  </div>
+</section>
+    
     <div id="kontakt"><p></p></div>
     <!-- Link zu contact.php Kontakt Formular-->
     <?php include_once"contact.php"; ?>
