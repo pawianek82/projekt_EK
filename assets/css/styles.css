@@ -1,3 +1,15 @@
+/* Gradient Hintergrund für die gesamte Seite */
+body {
+  background: rgb(0, 0, 128); /* Fallback-Farbe (ciemnoniebieski) */
+  background: linear-gradient(to bottom, #004080, #001a33); /* Gradient z ciemnoniebieskiego do bardzo ciemnego */
+  height: 100vh; /* Pełna wysokość widocznego obszaru */
+  margin: 0; /* Usunięcie marginesów */
+  padding: 0; /* Usunięcie wewnętrznych odstępów */
+  color: #ffffff; /* Biały tekst */
+  font-family: Arial, sans-serif; /* Czytelna czcionka */
+}
+
+
 /* Styling für die "Kontaktieren Sie mich" */
 .contact-section {
   max-width: 600px;
@@ -67,5 +79,48 @@
 
 /* Hover-Effekt für die Buttons */
 .contact-section button:hover {
+  opacity: 0.9;
+}
+
+/* Styling für die VIP Login Sektion */
+/* Definiert das Layout und Aussehen des gesamten Login-Bereichs */
+.login-vip-section {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Styling für die Überschrift */
+/* Zentrierte und deutliche Darstellung der Überschrift "Login VIP" */
+.login-vip-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Styling für die Buttons */
+.login-vip-section .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Spezielles Styling für den Haupt-Button "Einloggen" */
+.login-vip-section .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top:15px;
+}
+
+/* Hover-Effekt für Buttons */
+.login-vip-section .btn-primary:hover {
   opacity: 0.9;
 }
